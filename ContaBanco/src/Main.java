@@ -20,7 +20,7 @@ public class Main {
         System.out.println("Por fim, digite seu saldo: ");
         c1.setSaldo(scanner.nextDouble());
 
-        System.out.println("Olá " + c1.nomecli + ", obrigado por criar uma conta em nosso banco," +
+        System.out.println("Olá " + c1.nomecli + ", obrigado  por criar uma conta em nosso banco," +
                 " sua agência é " + c1.agencia + ", conta " + c1.numero + " e seu saldo R$"
                 + c1.saldo + " já está disponível para saque.");
     }
