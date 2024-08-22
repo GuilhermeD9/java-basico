@@ -1,19 +1,3 @@
-public class MsnMesseger {
-    public void enviarMensagem() {
-        validarConectadoInternet();
-        System.out.println("Enviando mensagem");
-        salvarHistoricoMensagem();
-    }
+public class MsnMesseger extends ServicoMensagemInstatanea {
 
-    public void receberMensagem() {
-        System.out.println("Recebendo mensagem");
-    }
-
-    private void validarConectadoInternet() {
-        System.out.println("Validando de está conectado a internet");
-    }
-
-    private void salvarHistoricoMensagem() {
-        System.out.println("Salvando o histórico de mensagens.");
-    }
 }
